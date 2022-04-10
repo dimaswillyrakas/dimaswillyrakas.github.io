@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="img/user.png">
+    <title>My Portfolio | Dimas Willy R.</title>
+</head>
+
+<body id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dimas Willy Rakasiwi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- jumbotron -->
+    <section class="jumbotron text-center">
+        <img src="img/Pas Foto.jpg" alt="Pas Foto - Dimas Willy Rakasiwi" width="180"
+            class="rounded-circle img-thumbnail">
+        <h1 class="display-4">Dimas Willy Rakasiwi</h1>
+        <p class="lead">Define, Do, Evaluate, Repeat.</p>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center mt-2 mb-2">
+                <h2>About Me</h2>
+            </div>
+            <div class="row justify-content-center fs-5 text-center">
+                <div class="col-md-5">
+                    <p>Pengalaman kerja selama 1 tahun sebagai System Support Officer ERP di PT Global Karya Solusi dan
+                        ditempatkan di
+                        perusahaan BUMN Perhutani.</p>
+                </div>
+                <div class="col-md-5">
+                    <p>Tertarik dengan dunia IT seperti software testing, software quality assurance, troubleshooting,
+                        RPA, dan hal-hal terkait
+                        perkembangan teknologi dan digitalisasi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section id="projects">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>My Projects</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <p class="card-text">Sistem Reminder Rapat</p>
+                            <p class="card-text">Teknologi : Gammu, PHP, HTML, CSS, JavaScript, MySql</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <p class="card-text">Pelatihan Java</p>
+                            <p class="card-text">Platform : Dicoding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <p class="card-text">Portfolio Website</p>
+                            <p class="card-text">Teknologi : HTML, CSS, Bootstrap, Github</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email ">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-dark">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-dark text-white text-center shadow pt-3 pb-1">
+        <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a
+                href="https://www.linkedin.com/in/dimas-willy-rakasiwi/" class="fw-bold">Dimas Willy R.</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
